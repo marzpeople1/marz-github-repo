@@ -8,6 +8,7 @@ import org.springframework.web.servlet.mvc.AbstractController;
 public class HelloController extends AbstractController {
 
 	/*Comment being reflected*/
+	/*Second comment being reflected (from remote to local)*/
 	@Override
 	protected ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		ModelAndView modelAndView = new ModelAndView("HelloPage");
